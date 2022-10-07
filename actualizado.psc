@@ -1,4 +1,4 @@
-Algoritmo operaciones
+Algoritmo MULTI_PROGRAMAS
 	Definir  a, b, r, op Como Real
 	Escribir "elige un numero del menu de programas"
 	Escribir "1 = fibonacci"
@@ -20,10 +20,18 @@ Algoritmo operaciones
 			Fin Mientras
 			
 		2:
+			Escribir "escribe el número"
+			Leer n
+			Para a = n hasta 1 con paso -1 hacer
+				Para b = 1 hasta a con paso 1 hacer
+					Escribir " " sin saltar
+				FinPara
+				Para c = a hasta n con paso 1 hacer
+					Escribir "* " sin saltar
+				FinPara
+				Escribir ""
+			FinPara
 			
-				
-
-
 		3:
 			Escribir "que operacion matematica quieres hacer"
 			Escribir "1 suma ";
